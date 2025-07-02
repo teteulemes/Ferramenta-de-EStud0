@@ -1,8 +1,12 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
 body{
     background: url('img/bg-desktop.webp');
-    background-color: rgb(49, 0, 95);
     font-family: Permanent Marker;
-    color: rgb(0, 0, 0);
 }
 
 #container{
@@ -19,18 +23,19 @@ body{
 
 .cartao__conteudo{
     text-align: center;
-    background-color: honeydew;
+ background-color: var(--card-front-color);
     height: 100%;
 }
 
 .cartao__conteudo h3{
-background-color: deepskyblue;
-text-align: left;
-padding: 0.5rem;
-position: absolute;
-margin: 0.6rem;
-border-radius: 0.6rem;
-font-size: 1vw;
+     color: var(--text-color);
+     background-color: deepskyblue;
+     text-align: left;
+     padding: 0.5rem;
+     position: absolute;
+     margin: 0.6rem;
+     border-radius: 0.6rem;
+     font-size: 1vw;
 }
 
 footer{
