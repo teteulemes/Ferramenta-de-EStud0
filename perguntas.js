@@ -17,3 +17,21 @@ criaCartao(
     'Quem é o rei dos queijos?',
     'O REIqueijão',
 )
+
+criaCartao(
+    'curiosidade',
+    'Por que o gato mia?',
+    'Os gatos miam para comunicar diferentes necessidades e desejos, como fome, dor, desconforto, tédio ou para pedir atenção.',
+)
+
+criaCartao(
+    'Charada',
+    'Verde por fora, vermelha por dentro?',
+    'É a melancia',
+)
+
+criaCartao(
+    'curiosidade',
+    'Por que que a pulga pula?',
+    'A pulga pula para se locomover, já que não possui asas para voar',
+)
